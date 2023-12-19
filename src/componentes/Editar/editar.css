@@ -1,0 +1,17 @@
+
+.botao-salvar,
+.botao-proposta,
+.botao-voltar {
+  margin-top: 10px;
+  margin:10px;
+}
+
+.botao-salvar,
+.botao-proposta,
+.botao-voltar {
+  margin-top: 10px;
+}
+
+.botao-proposta {
+  margin-left: 10px;
+}

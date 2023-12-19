@@ -1,0 +1,134 @@
+.cabeca-home {
+    background-image: url('/src/imagens/background-cabeca.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 70vh;
+}
+
+.header-home {
+    background-image: url('/src/imagens/banner.png');
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: right;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;    
+  }
+
+.bem-vindo{
+    color: #fff;
+    margin-left: 300px;
+    margin-top: 100px;
+
+}
+
+.bem-vindo h1{
+text-align: left;
+font-size: 30px; 
+font-weight: 800; 
+width: 28%;
+}
+
+.bem-vindo p{
+    text-align: left;
+    font-size: 20px; 
+    font-weight: 600; 
+    width: 28%;
+  }
+
+.corpo-home {
+    background-image: url('/src/imagens/background2-Vayon.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 180vh;
+    margin-top: 20%;
+}
+
+.main-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 800px;
+    position: relative;
+    margin: 0 auto; 
+}
+
+.conteudo-home h1 {
+    display: inline-block;
+    color: #fff;
+    width:  300px;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 15px 25px;
+    background-color: #f3901d;
+    border-radius: 50px;
+}
+
+.conteudo-home p {
+    margin-bottom: 90px;
+    margin-top: 20px;
+    margin-bottom: 150px; 
+    font-size: 25px;
+}
+
+.titulo-descricao-cobertura h1 {
+    display: inline-block;
+    color: #fff;
+    width:  300px;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-top: 150px;
+    padding: 15px 25px;
+    background-color: #f3901d;
+    border-radius: 50px;
+}
+
+.coberturas-container {
+    display: flex;
+    justify-content: center;  
+    align-items: center;    
+    margin-top: 70px;
+}
+
+.descricao-cobertura {
+    height: 500px;
+    width: 500px;   
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.descricao-cobertura h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.descricao-cobertura p {
+    font-size: 22px;
+    text-align: center;
+}
+
+.descricao-cobertura:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.footer{
+    background-image: url('/src/imagens/background-\ pe-Vayon.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    margin-top: 800px;
+    height: 55vh;
+}

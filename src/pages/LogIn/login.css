@@ -1,0 +1,51 @@
+body{
+    background-color: transparent!important ;
+}
+
+.cabeca-login{
+    background-image: url('/src/imagens/background-cabeca.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left ; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    z-index: -1;
+}
+
+.corpo-login{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 400px;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 330px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.log-in{
+    font-size: 25px;
+    padding: 15px;
+    text-decoration: underline;
+    font-family: "Lato", sans-serif;
+}
+
+.input-login{
+    padding: 20px;
+}
+
+.label-login{
+    display: flex;
+    font-size: 20px;
+    text-align: left;
+}
+
+.logar{
+    margin-top:40px ;
+}
+

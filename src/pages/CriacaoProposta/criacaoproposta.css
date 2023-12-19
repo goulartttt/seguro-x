@@ -1,0 +1,41 @@
+.cabeca-criacao-proposta{
+    background-image: url('/src/imagens/background-cabeca.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left ; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    z-index: -1;
+}
+
+.main-criacao-proposta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 710px;
+    height: 640px;
+    margin: 0 auto;
+    margin-top: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+.input-criacao-proposta{
+    margin-left: 12px;
+    padding: 10px;
+    width: 350px;
+} 
+
+.input-criacao-proposta-excecao{
+    margin-left: 12px;
+    padding: 10px;
+    width: 700px;
+} 
+
+.botao-submit{
+    margin-top: 20px;
+}

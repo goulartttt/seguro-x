@@ -1,0 +1,47 @@
+
+.bg-body-tertiary {
+    background-color: transparent!important;
+  }
+  
+  .nav-login {
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 17px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    margin-right: 10px;
+  }
+  
+  .nav-login:hover {
+    font-size: 18px;
+  }
+  
+  .nav-singup {
+    display: flex;
+    margin-right:32px ;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 17px;
+    box-shadow: 0 0 5px rgba(0, 290, 0, 0.8);
+  }
+  
+  .nav-singup:hover {
+    font-size: 18px;
+  }
+  
+  .custom-dropdown {
+    display: flex;
+    margin-right: 100px;
+  }
+  
+  .dropdown-link {
+    color: #000;
+    margin-left: -10px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .dropdown-link:hover,
+  .dropdown-link:focus {
+    background-color: #f8f9fa;
+  }
